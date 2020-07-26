@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    display: flex;
+   justify-content: space-around;
+}
+body{
+    background-color: thistle;
+}
+
+#container{
+    border: 3px solid black;
+    margin-left: 4rem;
+}
+.row{
+    display: flex;
+    width: 70vw;
+}
+
+.box{
+    border: 0.01px solid black;
+    width: inherit;
+    height: 2rem;
+    background-color: white;
+}
+
+#center{
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.btn{
+    padding: 0.2rem;
+    height: 2rem;
+    width: 8rem;
+    background-color: violet;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+    border-color: blueviolet;
+}
+
+.btn:hover{
+    background-color: mediumslateblue;
+    transition: 1s;
+}
+
